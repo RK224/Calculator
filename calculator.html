@@ -1,30 +1,42 @@
 
 <html>
 <head>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Orbitron">
 <link rel="stylesheet" href="calculator.css">
-<script type="text/javascript" src="jQuery.js"></script>
 </head>
 <body>
 <div id="calculatorContainer">
-<div id="screen"></div>
-<button value="1" class="num">1</button>
-<button value="2" class="num">2</button>
-<button value="3" class="num">3</button>
-<button class="operator" value="+">&plus;</button>
-<button value="4" class="num">4</button>
-<button value="5" class="num">5</button>
-<button value="6" class="num">6</button>
-<button class="operator" value="-">&minus;</button>
-<button value="7" class="num">7</button>
-<button value="8" class="num">8</button>
-<button value="9" class="num">9</button>
-<button class="operator" value="*">&#8727;</button>
-<button value="0" class="num">0</button>
-<button value="." class="num">&#8729;</button>
-<button id="equalTo" class="operator">=</button>
-<button class="operator" value="/">/</button>
-<button id="clear"> C </button>
+<table border="1">
+<tr>
+<td colspan="4"><div id="screen"></div></td>
+</tr>
+<tr>
+
+<td><button value="1" class="num">1</button></td>
+<td><button value="2" class="num">2</button></td>
+<td><button value="3" class="num">3</button></td>
+<td><button class="operator" value=" + " >&plus;</button></td></tr>
+<tr>
+<td><button value="4" class="num">4</button></td>
+<td><button value="5" class="num">5</button></td>
+<td><button value="6" class="num">6</button></td>
+<td><button class="operator" value=" - ">&minus;</button></td></tr>
+<tr>
+<td><button value="7" class="num">7</button></td>
+<td><button value="8" class="num">8</button></td>
+<td><button value="9" class="num">9</button></td>
+<td><button class="operator" value=" x ">&times;</button></td></tr>
+<tr>
+<td><button value="0" class="num">0</button></td>
+<td><button value="." class="num">&#8729;</button></td>
+<td><button id="equalTo" class="operator">=</button></td>
+<td><button class="operator" value=" / ">/</button></td></tr>
+<tr><td colspan="4"><button id="clear"> C </button></td></tr>
+</table>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
 <script type="text/javascript" src="calculator.js"></script>
 </body>
 </html>

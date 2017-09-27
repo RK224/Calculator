@@ -23,13 +23,13 @@ $(".operator").click(function () {
 	else if(num_str!=null)
 	{
 	if (operator) {
-		if (operator==="+"){
+		if (operator===" + "){
 			result+=Number.parseFloat(num_str);
-		}else if (operator === "-") {
+		}else if (operator === " - ") {
 			result-=Number.parseFloat(num_str);
-		}else if(operator==="*"){
+		}else if(operator==" x "){
 			result*=Number.parseFloat(num_str);		
-		}else if(operator === "/"){
+		}else if(operator === " / "){
 			result/=Number.parseFloat(num_str);		
 		}
 	}
